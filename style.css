@@ -1,0 +1,59 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.ease {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    transition: ease;
+}
+
+.ease:hover {
+    width: 900px;
+    transition-duration: 3s;
+}
+
+.linear {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    transition: linear;
+}
+
+.linear:hover {
+    width: 700px;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    background-color: darkred;
+}
+
+.easeOut {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+}
+
+.easeOut:hover {
+    width: 50px;
+    transition-duration: 1s;
+}
+
+.img {
+    height: 400px;
+    transition: all 2s linear;
+    color: #001219;
+    text-align: center;
+}
+
+.img:hover {
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
